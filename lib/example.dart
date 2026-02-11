@@ -1,3 +1,7 @@
+// example.dart
+// Derick Walker
+// This is the default Flutter app
+
 import 'package:flutter/material.dart';
 
 void main() {
