@@ -16,6 +16,8 @@ import 'coords.dart';
 
 class Chess extends StatelessWidget
 {
+  const Chess({super.key});
+
   @override
   Widget build( BuildContext context )
   {
@@ -93,9 +95,7 @@ class Square extends StatelessWidget
   @override
   Widget build( BuildContext context )
   { MoveCubit mc = BlocProvider.of<MoveCubit>(context);
-    MoveState ms = mc.state;
     ChessCubit cc = BlocProvider.of<ChessCubit>(context);
-    ChessState cs = cc.state;
 
     return Listener
     ( onPointerDown: (_)
