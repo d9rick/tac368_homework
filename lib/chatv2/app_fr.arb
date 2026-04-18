@@ -1,0 +1,13 @@
+{
+  "appTitle": "Demo de localisation",
+  "helloWorld": "Bonjour le monde !",
+  "counterMessage": "Vous avez clique {count} fois",
+  "@counterMessage": {
+    "description": "Affiche sous le bouton du compteur",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
